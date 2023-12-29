@@ -1,0 +1,25 @@
+What are Operators?
+	
+	operators are a method of packaging, deploying, and managing a Kubernetes cluster
+		
+		They watch the cluster state to deliver the functionality for the specific operator
+		
+		operator framework lets you customize features that you need
+		
+Cluster Operator Installation
+
+	Installed by default or during initial cluster configuration
+	
+How do we manage Cluster Operators?
+	
+	Usually managed by the CVO (cluster version operator)
+	
+	OLM (operator lifecycle manager) manages installation, upgrade, and role-based access control
+	
+Operator Registry
+	
+	maintains info about ClusterServiceVersions (CSV) resources and available CUstom Resource Defintion (CRD) in the cluster.
+	
+	OperatorHub can add operators to a cluster
+	
+

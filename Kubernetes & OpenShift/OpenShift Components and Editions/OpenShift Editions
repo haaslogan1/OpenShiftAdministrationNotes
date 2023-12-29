@@ -1,0 +1,33 @@
+Editions
+	Each release is a collection of tech that form the cluster
+	
+Production-ready Environment Types
+	1. Managed Red Hat OpenShift Services
+		i. deployed via public cloud partners IBM, AWS, Google, Azure
+	2. Self-managed Red Hat OpenShift
+		i. Best for rigid security requirements
+
+Self-Managed Options
+
+	OpenShift Kubernetes Engine
+		Latest version of Kubernetes platform
+		Additional security hardening
+		Enterprise stability
+	
+		Architecture:
+			RHEL CoreOS immutable container operating system
+			OpenShift Virtualization for VM management
+			
+	OpenShift Container Platform
+		Kubernetes Engine +
+		additional cluster manageabillity
+		scalability
+		ease of app development
+		
+	OpenShift Platform Plus
+		OCP +
+		advanced cluster management
+		advanced cluster security
+		quay private image registry
+		
+

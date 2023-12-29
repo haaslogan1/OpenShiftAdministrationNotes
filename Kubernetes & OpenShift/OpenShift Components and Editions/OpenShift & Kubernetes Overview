@@ -1,0 +1,27 @@
+Container
+	encapsulated process with all the required dependencies for the program to run
+	
+		system dependencies come from the kernel and OS
+		
+		app dependencies are packaged independent of host system dependencies
+		
+	Advantages
+		Modularity
+		Portability - app can work equivalently in a container on any host
+		Isolate processes into its own runtime environment
+			System changes are not inherited by the runtime
+		
+Kubernetes
+	Automate the container management at scale
+		organizes app containers into manageable pods
+		creates app or tenant isolation via namespace
+		provides integration with other components (like CI/CD Jenkins pipelines)
+RHOCP
+	OpenShift builds on Kubernetes by adding:
+		networking solutions
+		platform security
+		auth
+		web console
+		image registry
+		+ more
+
