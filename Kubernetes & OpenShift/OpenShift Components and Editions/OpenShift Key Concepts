@@ -1,0 +1,20 @@
+Pods
+	1+ container(s)
+	
+	smallest unit of a kubernetes-managed containerized app
+	
+Deployments
+
+	operational unit for managing a running app
+	
+Projects
+
+	Kubernetes namespace w/ additional annotations for multitenancy scoping in apps
+	
+Routes
+
+	Networking config to expose your apps and resources outside the cluster
+	
+Operators
+
+Packaged Kubernetes apps that extend cluster functionality

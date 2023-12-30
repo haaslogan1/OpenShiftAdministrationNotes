@@ -1,0 +1,7 @@
+Authenticate to the cluster:
+	oc login -u user -p password <API endpoint>
+	
+Retrieve the console URL:
+	oc whoami --show-console
+
+
